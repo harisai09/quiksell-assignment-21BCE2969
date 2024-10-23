@@ -1,0 +1,29 @@
+.select {
+  max-width: 7rem;
+  border-radius: 0.2rem;
+  border: 1px solid #e0e0e0;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.select-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+}
+
+.select-container {
+  position: absolute;
+  top: 2.5rem;
+  left: 0;
+  width: 15rem;
+  background-color: #f4f6fa;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0.2rem;
+  border: 1px solid #e0e0e0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
